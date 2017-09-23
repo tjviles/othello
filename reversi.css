@@ -1,0 +1,26 @@
+canvas.myCanvas {
+  border: solid 20px black;
+  box-shadow: 5px 5px 5px black;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 250px);
+}
+
+canvas.status {
+  width: 500px;
+  height: 100px;
+  position: absolute;
+  top: calc(50% + 340px);
+  left: calc(50% - 250px);
+}
+
+div.picture1 {
+   width:480px;
+   height:150px;
+   background-image:url('title.png');
+   position: absolute;
+   top: 5%;
+   left: calc(50% - 220px);
+}
